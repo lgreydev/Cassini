@@ -20,7 +20,16 @@ class ImageViewController: UIViewController {
         }
     }
 
-    private func fitchImage() {
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if imageView.image == nil {
+            fitchImage()
+        }
+    }
 
+    private func fitchImage() {
+        if let url = imageURL {
+
+        }
     }
 }
