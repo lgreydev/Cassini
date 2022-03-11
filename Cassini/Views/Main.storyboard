@@ -16,13 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wQB-04-cU0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wQB-04-cU0">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="wQB-04-cU0" secondAttribute="bottom" id="5Nq-zr-EBk"/>
+                            <constraint firstItem="wQB-04-cU0" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="Bdc-RG-sed"/>
+                            <constraint firstItem="wQB-04-cU0" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="P8m-DH-hp3"/>
+                            <constraint firstItem="wQB-04-cU0" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="vpR-Zt-11X"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="wQB-04-cU0" id="aeu-H3-ewg"/>
