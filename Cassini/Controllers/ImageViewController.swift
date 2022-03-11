@@ -11,4 +11,16 @@ class ImageViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
 
+    var imageURL: URL? {
+        didSet {
+            imageView.image = nil
+            if view.window != nil {
+                fitchImage()
+            }
+        }
+    }
+
+    private func fitchImage() {
+
+    }
 }
