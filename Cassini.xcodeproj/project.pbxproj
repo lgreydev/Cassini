@@ -56,15 +56,39 @@
 		5E170A6727DBB5B0002368E4 /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				5E170A6827DBB5B0002368E4 /* AppDelegate.swift */,
-				5E170A6A27DBB5B0002368E4 /* SceneDelegate.swift */,
-				5E170A6C27DBB5B0002368E4 /* ViewController.swift */,
-				5E170A6E27DBB5B0002368E4 /* Main.storyboard */,
-				5E170A7127DBB5B2002368E4 /* Assets.xcassets */,
-				5E170A7327DBB5B2002368E4 /* LaunchScreen.storyboard */,
-				5E170A7627DBB5B2002368E4 /* Info.plist */,
+				5E170A7D27DBB634002368E4 /* Views */,
+				5E170A7C27DBB61B002368E4 /* SupportingFiles​ */,
+				5E170A7E27DBB65A002368E4 /* Controllers */,
 			);
 			path = Cassini;
+			sourceTree = "<group>";
+		};
+		5E170A7C27DBB61B002368E4 /* SupportingFiles​ */ = {
+			isa = PBXGroup;
+			children = (
+				5E170A7627DBB5B2002368E4 /* Info.plist */,
+				5E170A6827DBB5B0002368E4 /* AppDelegate.swift */,
+				5E170A6A27DBB5B0002368E4 /* SceneDelegate.swift */,
+				5E170A7127DBB5B2002368E4 /* Assets.xcassets */,
+			);
+			path = "SupportingFiles​";
+			sourceTree = "<group>";
+		};
+		5E170A7D27DBB634002368E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E170A6E27DBB5B0002368E4 /* Main.storyboard */,
+				5E170A7327DBB5B2002368E4 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E170A7E27DBB65A002368E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E170A6C27DBB5B0002368E4 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cassini/Info.plist;
+				INFOPLIST_FILE = "Cassini/SupportingFiles​/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +343,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LGVM9RAH4N;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Cassini/Info.plist;
+				INFOPLIST_FILE = "Cassini/SupportingFiles​/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
