@@ -26,3 +26,4 @@ struct DemoURLs {
         return urls
     }()
 }
+
