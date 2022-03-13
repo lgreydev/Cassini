@@ -16,15 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jiV-Kw-l9i">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" placeholderIntrinsicWidth="414" placeholderIntrinsicHeight="896" translatesAutoresizingMaskIntoConstraints="NO" id="jiV-Kw-l9i">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="1XY-YX-KtN"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="3tK-xG-7Jz"/>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <viewLayoutGuide key="safeArea" id="nov-wc-krD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jiV-Kw-l9i" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="2rb-AG-MLL"/>
+                            <constraint firstAttribute="bottom" secondItem="jiV-Kw-l9i" secondAttribute="bottom" id="bQd-CV-iiA"/>
+                            <constraint firstItem="jiV-Kw-l9i" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="f53-72-1od"/>
+                            <constraint firstItem="jiV-Kw-l9i" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="lgg-oi-3Rx"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="jiV-Kw-l9i" id="vsZ-SA-T7p"/>
