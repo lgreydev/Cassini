@@ -9,17 +9,37 @@ import UIKit
 
 class ImageViewController: UIViewController {
 
-    @IBOutlet weak var imageView: UIImageView!
-
-    var imageURL: URL? {
+    // MARK: - IBOutlets
+    @IBOutlet weak var scrollView: UIScrollView! {
         didSet {
-            imageView.image = nil
+            scrollView.addSubview(imageView)
+        }
+    }
+
+    // MARK: - Private Properties
+    private var imageView = UIImageView()
+
+    private var imageURL: URL? {
+        didSet {
+            image = nil
             if view.window != nil {
                 fitchImage()
             }
         }
     }
 
+    private var image: UIImage? {
+        get {
+            imageView.image
+        }
+        set {
+            imageView.image = newValue
+            imageView.sizeToFit()
+            scrollView.contentSize = imageView.frame.size
+        }
+    }
+
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         if imageURL == nil {
@@ -34,11 +54,12 @@ class ImageViewController: UIViewController {
         }
     }
 
+    // MARK: - Private Methods
     private func fitchImage() {
         if let url = imageURL {
             let urlContents = try? Data(contentsOf: url)
             if let imageData = urlContents {
-                imageView.image = UIImage(data: imageData)
+                image = UIImage(data: imageData)
             }
         }
     }
