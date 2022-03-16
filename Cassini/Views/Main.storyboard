@@ -26,7 +26,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="Y6W-OH-hqX" kind="show" id="kRF-Fm-9oL"/>
+                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Cassini" id="6e0-VC-Zxi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVb-dr-2t9">
@@ -35,6 +35,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Earth">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Earth" id="0qx-30-yBJ"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5l-SK-uoD">
                                         <rect key="frame" x="0.0" y="144" width="149" height="62"/>
@@ -42,6 +45,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="Saturn">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Saturn" id="6z5-AB-9ki"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -89,7 +95,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1100" y="763"/>
+            <point key="canvasLocation" x="-491" y="682"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="zbC-3b-iMI">
@@ -122,6 +128,9 @@
             <point key="canvasLocation" x="-1374" y="-92"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="6z5-AB-9ki"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
