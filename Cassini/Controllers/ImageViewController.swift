@@ -19,10 +19,8 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
         }
     }
 
-    // MARK: - Private Properties
-    private var imageView = UIImageView()
-
-    private var imageURL: URL? {
+    // MARK: - Public Properties
+    var imageURL: URL? {
         didSet {
             image = nil
             if view.window != nil {
@@ -30,6 +28,9 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
             }
         }
     }
+
+    // MARK: - Private Properties
+    private var imageView = UIImageView()
 
     private var image: UIImage? {
         get {
