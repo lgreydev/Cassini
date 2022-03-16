@@ -15,7 +15,7 @@ class CassiniViewController: UIViewController {
             if let url = DemoURLs.NASA[identifier] {
                 if let imageVC = segue.destination as? ImageViewController {
                     imageVC.imageURL = url
-                    imageVC.title = (sender as? UIButton)?.currentTitle
+                    imageVC.title = (sender as? UIButton)?.titleLabel?.text
                 }
             }
         }
