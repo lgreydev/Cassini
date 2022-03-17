@@ -19,6 +19,11 @@
 		5EE3AC5927E319DF00B56A34 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5827E319DF00B56A34 /* .gitignore */; };
 		5EE3AC5B27E31A1800B56A34 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5A27E31A1800B56A34 /* License */; };
 		5EE3AC5D27E31A4900B56A34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5C27E31A4900B56A34 /* README.md */; };
+		5EE3AC6427E36EA300B56A34 /* 004.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5F27E36EA300B56A34 /* 004.jpg */; };
+		5EE3AC6527E36EA300B56A34 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC6027E36EA300B56A34 /* 001.jpg */; };
+		5EE3AC6627E36EA300B56A34 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC6127E36EA300B56A34 /* 005.jpg */; };
+		5EE3AC6727E36EA300B56A34 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC6227E36EA300B56A34 /* 002.jpg */; };
+		5EE3AC6827E36EA300B56A34 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC6327E36EA300B56A34 /* 003.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		5EE3AC5827E319DF00B56A34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5EE3AC5A27E31A1800B56A34 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
 		5EE3AC5C27E31A4900B56A34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5EE3AC5F27E36EA300B56A34 /* 004.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 004.jpg; sourceTree = "<group>"; };
+		5EE3AC6027E36EA300B56A34 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		5EE3AC6127E36EA300B56A34 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
+		5EE3AC6227E36EA300B56A34 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		5EE3AC6327E36EA300B56A34 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +62,11 @@
 		5E170A5C27DBB5B0002368E4 = {
 			isa = PBXGroup;
 			children = (
+				5E170A6727DBB5B0002368E4 /* Cassini */,
+				5EE3AC5E27E36E7A00B56A34 /* Screenshots */,
 				5EE3AC5827E319DF00B56A34 /* .gitignore */,
 				5EE3AC5A27E31A1800B56A34 /* License */,
 				5EE3AC5C27E31A4900B56A34 /* README.md */,
-				5E170A6727DBB5B0002368E4 /* Cassini */,
 				5E170A6627DBB5B0002368E4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +128,18 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
+		5EE3AC5E27E36E7A00B56A34 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				5EE3AC6027E36EA300B56A34 /* 001.jpg */,
+				5EE3AC6227E36EA300B56A34 /* 002.jpg */,
+				5EE3AC6327E36EA300B56A34 /* 003.jpg */,
+				5EE3AC5F27E36EA300B56A34 /* 004.jpg */,
+				5EE3AC6127E36EA300B56A34 /* 005.jpg */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,10 +199,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EE3AC5B27E31A1800B56A34 /* License in Resources */,
+				5EE3AC6727E36EA300B56A34 /* 002.jpg in Resources */,
 				5EE3AC5927E319DF00B56A34 /* .gitignore in Resources */,
+				5EE3AC6427E36EA300B56A34 /* 004.jpg in Resources */,
+				5EE3AC6527E36EA300B56A34 /* 001.jpg in Resources */,
 				5E170A8227DBB854002368E4 /* Main.storyboard in Resources */,
+				5EE3AC6627E36EA300B56A34 /* 005.jpg in Resources */,
 				5EE3AC5D27E31A4900B56A34 /* README.md in Resources */,
 				5E170A7527DBB5B2002368E4 /* LaunchScreen.storyboard in Resources */,
+				5EE3AC6827E36EA300B56A34 /* 003.jpg in Resources */,
 				5E170A7227DBB5B2002368E4 /* Assets.xcassets in Resources */,
 				5E170A8627DCAED7002368E4 /* oval.jpg in Resources */,
 			);
