@@ -26,7 +26,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Cassini" id="6e0-VC-Zxi"/>
+                                            <segue destination="2s1-K0-LJU" kind="showDetail" identifier="Cassini" id="6e0-VC-Zxi"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVb-dr-2t9">
@@ -36,7 +36,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Earth" id="0qx-30-yBJ"/>
+                                            <segue destination="2s1-K0-LJU" kind="showDetail" identifier="Earth" id="0qx-30-yBJ"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5l-SK-uoD">
@@ -46,7 +46,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
                                         </buttonConfiguration>
                                         <connections>
-                                            <segue destination="Y6W-OH-hqX" kind="showDetail" identifier="Saturn" id="6z5-AB-9ki"/>
+                                            <segue destination="2s1-K0-LJU" kind="showDetail" identifier="Saturn" id="6z5-AB-9ki"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -102,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-491" y="682"/>
+            <point key="canvasLocation" x="418.84057971014494" y="681.69642857142856"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="zbC-3b-iMI">
@@ -134,9 +134,27 @@
             </objects>
             <point key="canvasLocation" x="-1374" y="-92"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cdC-i4-14V">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2s1-K0-LJU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hE7-Qe-JeG">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="BJA-yh-8Pr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9NO-EN-4ZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-491.304347826087" y="681.69642857142856"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="6z5-AB-9ki"/>
+        <segue reference="0qx-30-yBJ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
