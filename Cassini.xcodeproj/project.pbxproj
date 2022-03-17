@@ -18,6 +18,7 @@
 		5ED7B54627E0ED350036D984 /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED7B54527E0ED350036D984 /* CassiniViewController.swift */; };
 		5EE3AC5927E319DF00B56A34 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5827E319DF00B56A34 /* .gitignore */; };
 		5EE3AC5B27E31A1800B56A34 /* License in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5A27E31A1800B56A34 /* License */; };
+		5EE3AC5D27E31A4900B56A34 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5EE3AC5C27E31A4900B56A34 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		5ED7B54527E0ED350036D984 /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 		5EE3AC5827E319DF00B56A34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5EE3AC5A27E31A1800B56A34 /* License */ = {isa = PBXFileReference; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		5EE3AC5C27E31A4900B56A34 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				5EE3AC5727E3194C00B56A34 /* Data */,
 				5EE3AC5827E319DF00B56A34 /* .gitignore */,
 				5EE3AC5A27E31A1800B56A34 /* License */,
+				5EE3AC5C27E31A4900B56A34 /* README.md */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				5EE3AC5B27E31A1800B56A34 /* License in Resources */,
 				5EE3AC5927E319DF00B56A34 /* .gitignore in Resources */,
 				5E170A8227DBB854002368E4 /* Main.storyboard in Resources */,
+				5EE3AC5D27E31A4900B56A34 /* README.md in Resources */,
 				5E170A7527DBB5B2002368E4 /* LaunchScreen.storyboard in Resources */,
 				5E170A7227DBB5B2002368E4 /* Assets.xcassets in Resources */,
 				5E170A8627DCAED7002368E4 /* oval.jpg in Resources */,
