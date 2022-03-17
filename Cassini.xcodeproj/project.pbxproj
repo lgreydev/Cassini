@@ -65,7 +65,7 @@
 				5E170A7D27DBB634002368E4 /* Views */,
 				5E170A7C27DBB61B002368E4 /* SupportingFiles​ */,
 				5E170A7E27DBB65A002368E4 /* Controllers */,
-				5E170A8327DCAD1A002368E4 /* DemoURLs.swift */,
+				5EE3AC5727E3194C00B56A34 /* Data */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
@@ -98,6 +98,14 @@
 				5ED7B54527E0ED350036D984 /* CassiniViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5EE3AC5727E3194C00B56A34 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5E170A8327DCAD1A002368E4 /* DemoURLs.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
