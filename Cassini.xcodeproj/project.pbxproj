@@ -52,6 +52,9 @@
 		5E170A5C27DBB5B0002368E4 = {
 			isa = PBXGroup;
 			children = (
+				5EE3AC5827E319DF00B56A34 /* .gitignore */,
+				5EE3AC5A27E31A1800B56A34 /* License */,
+				5EE3AC5C27E31A4900B56A34 /* README.md */,
 				5E170A6727DBB5B0002368E4 /* Cassini */,
 				5E170A6627DBB5B0002368E4 /* Products */,
 			);
@@ -72,9 +75,6 @@
 				5E170A7C27DBB61B002368E4 /* SupportingFiles​ */,
 				5E170A7E27DBB65A002368E4 /* Controllers */,
 				5EE3AC5727E3194C00B56A34 /* Data */,
-				5EE3AC5827E319DF00B56A34 /* .gitignore */,
-				5EE3AC5A27E31A1800B56A34 /* License */,
-				5EE3AC5C27E31A4900B56A34 /* README.md */,
 			);
 			path = Cassini;
 			sourceTree = "<group>";
