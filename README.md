@@ -13,7 +13,7 @@ The application fetches data from the network, processes the URL outside of the 
  
  ## iPhone
  
-<img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/001.jpg" width="350"><img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/002.jpg" width="350"><img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/003.jpg" width="350">
+<img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/001.jpg" width="250"><img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/002.jpg" width="250"><img src="https://github.com/lgreydev/Cassini/blob/main/Screenshots/003.jpg" width="250">
  
  ## iPad
  
