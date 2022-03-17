@@ -19,6 +19,8 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
         }
     }
 
+    @IBOutlet weak var spinner: UIActivityIndicatorView!
+
     // MARK: - Public Properties
     var imageURL: URL? {
         didSet {
@@ -40,6 +42,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
             imageView.image = newValue
             imageView.sizeToFit()
             scrollView?.contentSize = imageView.frame.size
+            spinner?.stopAnimating()
         }
     }
 
@@ -66,6 +69,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate {
     // MARK: - Private Methods
     private func fitchImage() {
         if let url = imageURL {
+            spinner.startAnimating()
             DispatchQueue.global(qos: .userInitiated).async { [weak self] in
                 let urlContents = try? Data(contentsOf: url)
                 DispatchQueue.main.async {

@@ -78,19 +78,26 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="1XY-YX-KtN"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="3tK-xG-7Jz"/>
                             </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="x5E-LY-Gy2">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
+                                <color key="color" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nov-wc-krD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jiV-Kw-l9i" firstAttribute="trailing" secondItem="5EZ-qb-Rvc" secondAttribute="trailing" id="2rb-AG-MLL"/>
+                            <constraint firstItem="x5E-LY-Gy2" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="Vep-9s-DEa"/>
                             <constraint firstAttribute="bottom" secondItem="jiV-Kw-l9i" secondAttribute="bottom" id="bQd-CV-iiA"/>
                             <constraint firstItem="jiV-Kw-l9i" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="f53-72-1od"/>
                             <constraint firstItem="jiV-Kw-l9i" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="lgg-oi-3Rx"/>
+                            <constraint firstItem="x5E-LY-Gy2" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="u4t-Ly-4fr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="jm4-Od-twS"/>
                     <connections>
                         <outlet property="scrollView" destination="jiV-Kw-l9i" id="vsZ-SA-T7p"/>
+                        <outlet property="spinner" destination="x5E-LY-Gy2" id="3KH-Hz-G8v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
