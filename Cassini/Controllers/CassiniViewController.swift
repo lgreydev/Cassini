@@ -26,8 +26,6 @@ extension UIViewController {
     var contents: UIViewController {
         if let navcon = self as? UINavigationController {
             return navcon.visibleViewController ?? self
-//        } else if let tabcon = self as? UITabBarController {
-//            return tabcon.selectedViewController ?? self
         } else {
             return self
         }
